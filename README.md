@@ -2,9 +2,11 @@
 Delivery Planner Project written in C++
 
 Usage: In the same location as the source files, create a text file formatted as follows:
+
           DELIVERY_COORD_FROM_mapdata.txt: item_name (string) \n
           DELIVERY_COORD_FROM_mapdata.txt: item_name (string) \n
           ...
+          
        Then, in file "main.cpp", line 45, where it says "if (!loadDeliveryRequests("YOUR_FILE_HERE", depot, deliveries))", place your file name in the indicated
        location.
 
