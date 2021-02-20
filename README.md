@@ -28,7 +28,7 @@ including:
   -DeliveryOptimizer: 
       This code combats the traveling salesman problem exposed by this problem. The optimal order of deliveries could vary based on features of the
       coordinates and their locations relative to one another. This code uses a simulated annealing algorithm which capitalizes on randomness in order to
-      and calculate a pseudo-optimal delivery order. It uses straight-line distance between coordinate locations as a heuristic for path length.
+      calculate a pseudo-optimal delivery order. It uses straight-line distance between coordinate locations as a heuristic for path length.
       
   -DeliveryPlanner:
       This code takes the list of street segments outputted by PointToPoint and converts it into directions that are more easily understandable to a human driver.
